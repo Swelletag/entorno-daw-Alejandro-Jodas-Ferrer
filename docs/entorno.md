@@ -16,7 +16,10 @@
 Resultado de `java -version` y `node -v` **antes** de instalar nada:
 
 ```
+bash: java: command not found
+bash: node: command not found
 pega aquí
+
 ```
 
 ¿Por qué crees que aparece ese mensaje? (relaciónalo con la diapositiva «Problemas habituales del entorno»)
@@ -28,7 +31,14 @@ pega aquí
 Resultado de `java -version`, `node -v` y `jupyter lab --version` **después**:
 
 ```
-pega aquí
+node -v:
+v24.22.1
+java -version:
+openjdk version "27" 2026-09-15
+OpenJDK Runtime Environment Temurin-27+35 (build 27+35)
+OpenJDK 64-Bit Server VM Temurin-27+35 (build 27+35, mixed mode, sharing)
+jupyter lab --version:
+4.6.4
 ```
 
 ¿Qué líneas nuevas han aparecido en `devcontainer.json`? Explica con tus palabras qué hace cada una:
