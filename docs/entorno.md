@@ -23,7 +23,7 @@ pega aquí
 ```
 
 ¿Por qué crees que aparece ese mensaje? (relaciónalo con la diapositiva «Problemas habituales del entorno»)
-
+porque no esta instalado
 > 
 
 ### 1.2. Después de la 1.ª reconstrucción (paso 5)
@@ -42,7 +42,7 @@ jupyter lab --version:
 ```
 
 ¿Qué líneas nuevas han aparecido en `devcontainer.json`? Explica con tus palabras qué hace cada una:
-
+son las versiones
 > 
 
 ### 1.3. Comparativa de los dos IDE (paso 6)
@@ -67,27 +67,29 @@ jupyter lab --version:
 | Code Spell Checker      |   |   |   |
 
 ¿Qué diferencia hay entre instalar una extensión **solo desde el panel** y añadirla **también a `devcontainer.json`**?
-
+que se complementan
 > 
 
 ---
 
 ## 3. Personalización y automatización (CE 2.c)
 
-- **Tema visual elegido** (paso 10) y por qué:
+- **Tema visual elegido** (paso 10) y por qué: uno negro porque no me gusta el blanco
 - **Ajuste del proyecto** (paso 10). ¿Qué archivo se ha creado y qué contiene?
-
+ 
 ```
 pega aquí el contenido de .vscode/settings.json
 ```
 
 - **Atajo de teclado** (paso 11). ¿Qué acción, qué combinación y para qué te sirve?
+para hacer las cosas mas rapido y optimizarlo
 - **Snippet** (paso 12). ¿Qué escribes y qué aparece?
 - **Automatización al crear el entorno** (paso 14). ¿Qué hace `postCreateCommand` y qué archivos/carpetas han aparecido después de reconstruir?
+las 
 - **Tareas** (paso 13). ¿Cuántas tareas hay en `tasks.json` y qué hace cada una?
-
+unas pocas
 ¿Qué parte de toda esta configuración es **personal** (solo para ti) y qué parte es **del proyecto** (la recibe cualquiera que abra el repositorio)?
-
+la que uso yo y si en algún momento es para mas j
 > 
 
 ---
@@ -145,7 +147,7 @@ TOTAL                         268.50 EUR
 
 Versión de Java **antes** (paso 5) y **después** (paso 18):
 
-```
+```4.17.8
 pega aquí
 ```
 
@@ -168,7 +170,7 @@ pega aquí
 ```
 
 **Mi política de actualizaciones**: si este entorno lo usara un equipo de 5 personas durante todo el curso, ¿qué dejarías en automático y qué fijarías a mano? Justifícalo.
-
+las actualizaciones, algunas extensiones que faciliten cosas y asi, alomejor un consejo
 > 
 
 ---
@@ -176,11 +178,11 @@ pega aquí
 ## 6. Incidencias
 
 Anota cualquier problema que hayas tenido y cómo lo resolviste (también si usaste un fragmento completo).
-
+resentando funciona todo
 > 
 
 ## 7. Reflexión final
 
 ¿Qué ventaja tiene describir el entorno «como código» frente a instalar cada programa a mano en tu ordenador? Piensa en un equipo con Mac y Windows.
-
+que es mas facil supogo lo otro no lo he probado
 > 
