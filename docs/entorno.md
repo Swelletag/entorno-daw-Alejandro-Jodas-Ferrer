@@ -97,8 +97,30 @@ pega aquí el contenido de .vscode/settings.json
 Salida completa de la tarea **Build completo** (paso 15):
 
 ```
+> node dist/factura.js
+
+=== FACTURA generada con Node.js v24.22.1 ===
+Dominio web anual              12.00 EUR
+Alojamiento web                59.90 EUR
+Logotipo corporativo          150.00 EUR
+-----------------------------------------
+Base imponible                221.90 EUR
+IVA (21 %)                     46.60 EUR
+TOTAL                         268.50 EUR
 pega aquí
+in-class Factura -C build/java . && java -jar build/factura.jar 
+
+=== FACTURA generada con Java 27 ===
+Dominio web anual              12.00 EUR
+Alojamiento web                59.90 EUR
+Logotipo corporativo          150.00 EUR
+-----------------------------------------
+Base imponible                221.90 EUR
+IVA (21 %)                     46.60 EUR
+TOTAL                         268.50 EUR
 ```
+
+
 
 | Lenguaje | Archivo fuente | Herramienta que lo traduce | Archivo generado | Cómo se ejecuta |
 |----------|----------------|----------------------------|------------------|-----------------|
